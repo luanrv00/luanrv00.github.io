@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'Courier';
+  src: url('./fonts/CourierPrime-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/OpenSans-Regular.ttf');
+}
+
+:root {
+  --font-heading: 'Courier';
+  --font-secondary: 'Open Sans';
+  --color-grey: #888;
+  --color-lightgrey: #bbb;
+  --margin-major: 50px;
+  --margin-minor: 15px;
+  --size-major: 32px;
+  --size-medium: 24px;
+  --size-base: 20px;
+  --size-minor: 16px;
+}
+
+* {
+  margin: 0;
+}
+
+.container {
+  width: 95%;
+  max-width: 600px;
+  margin: var(--margin-major) auto;
+  font-family: var(--font-secondary);
+  font-size: var(--size-base);
+}
+
+.header,
+.main {
+  margin-bottom: var(--margin-major);
+}
+
+.header {
+  padding-bottom: var(--margin-minor);
+}
+
+.header-title,
+.main-subtitle {
+  font-family: var(--font-heading);
+  font-weight: lighter;
+}
+
+.header-title {
+  margin-bottom: var(--margin-minor);
+  font-size: var(--size-major);
+}
+
+.header-desc {
+  font-size: var(--size-minor);
+}
+
+.main-subtitle {
+  margin-bottom: var(--margin-minor);
+  font-size: var(--size-medium);
+  color: var(--color-grey);
+}
+
+.main-paragraph {
+  margin-bottom: var(--margin-minor);
+}
+
+.main-link {
+  text-decoration: none;
+  color: crimson;
+  border-bottom: 1px dotted crimson;
+}
+
+.footer {
+  padding-top: var(--margin-minor);
+  font-size: var(--size-minor);
+  border-top: 1px solid var(--color-lightgrey);
+}
+
+.footer-copyright {
+  color: var(--color-grey);
+}
