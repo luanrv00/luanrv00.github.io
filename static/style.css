@@ -80,5 +80,6 @@
 }
 
 .footer-copyright {
+  font-style: italic;
   color: var(--color-grey);
 }
