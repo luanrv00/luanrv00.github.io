@@ -4,14 +4,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, width=device-width">
     <link rel="stylesheet" href="static/style.css">
-    <title>Luan Ramos Vicente • Web Developer</title>
+    <meta name="theme-color" content="#010101">
+    <title>Luan Ramos Vicente • Software Engineer</title>
   </head>
-  <body>
+  <body class="wrapper" data-wrapper>
+    <svg style="display:none" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <symbol id="icon-contrast" viewBox="0 0 32 32">
+          <title>Light/Dark Mode</title>
+          <path d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM4 16c0-6.627 5.373-12 12-12v24c-6.627 0-12-5.373-12-12z"></path>
+        </symbol>
+      </defs>
+    </svg>
     <div class="container">
       <header class="main-header">
+        <span data-icon-contrast>
+          <svg class="icon-contrast">
+            <use xlink:href="#icon-contrast"></use>
+          </svg>
+        </span>
         <h1 class="title">Luan Ramos Vicente</h1>
-        <p class="description">A web developer interested in photography, free
-        software and music.</p>
+        <p class="description">Experienced at craft web applications, listen to
+        good music and to not do good things.</p>
       </header>
       <main class="main-content">
         <p class="social-networks">Catch me on
@@ -24,6 +38,7 @@
         <p class="copyright">&copy; 2020</p>
       </footer>
     </div>
+    <script src="assets/contrast.js"></script>
   </body>
 </html>
 
