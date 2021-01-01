@@ -15,12 +15,11 @@
   --green: lightgreen;
   --purple: purple;
   --font-family-primary: 'Trispace', sans-serif;
-  --font-family-secondary: 'PlayfairDisplay', serif;
   --lightgreen: #a9dfbf;
   --margin-size-major: 50px;
   --margin-size-minor: 15px;
   --font-size-major: 38px;
-  --font-size-medium: 32px;
+  --font-size-medium: 26px;
   --font-size-base: 20px;
   --font-size-minor: 16px;
 }
@@ -52,7 +51,7 @@
   margin: var(--margin-size-major) auto;
   width: 95%;
   max-width: 700px;
-  font-family: var(--font-family-secondary);
+  font-family: var(--font-family-primary);
   font-size: var(--font-size-base);
 }
 
@@ -65,23 +64,16 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: 28px;
   cursor: pointer;
 }
 
 .main-header > .title {
-  font-family: var(--font-family-primary);
   font-size: var(--font-size-base);
   font-weight: 300;
   text-transform: uppercase;
   color: var(--shadow);
-}
-
-.main-header > .description {
-  margin-top: var(--margin-size-major);
-  font-family: var(--font-family-secondary);
-  font-size: var(--font-size-medium);
 }
 
 .main-header,
@@ -89,15 +81,19 @@
   margin-bottom: var(--margin-size-major);
 }
 
+.main-content > .description {
+  margin-bottom: var(--margin-size-major);
+  font-size: var(--font-size-medium);
+  line-height: 1.8;
+}
+
 .main-content > .social-networks {
   margin-top: var(--margin-size-minor);
-  font-family: var(--font-family-primary);
   font-weight: 300;
   line-height: 1.8;
 }
 
 .social-networks > .link {
-  font-family: var(--font-family-primary);
   text-decoration: none;
   color: var(--green);
   border-bottom: 1px dotted var(--green);
@@ -105,7 +101,6 @@
 
 .main-footer {
   padding-top: var(--margin-size-minor);
-  font-family: var(--font-family-primary);
   border-top: 1px solid var(--shadow);
 }
 
