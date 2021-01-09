@@ -19,8 +19,8 @@
   --margin-size-major: 50px;
   --margin-size-minor: 15px;
   --font-size-major: 38px;
-  --font-size-medium: 26px;
-  --font-size-base: 20px;
+  --font-size-medium: 24px;
+  --font-size-base: 22px;
   --font-size-minor: 16px;
 }
 
@@ -71,7 +71,7 @@
 }
 
 .main-header > .title {
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-medium);
   font-weight: 300;
   text-transform: uppercase;
   color: var(--shadow);
@@ -84,7 +84,6 @@
 
 .main-content > .description {
   margin-bottom: var(--margin-size-major);
-  font-size: var(--font-size-medium);
   line-height: 1.8;
 }
 
