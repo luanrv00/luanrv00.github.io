@@ -9,8 +9,8 @@
 }
 
 :root {
-  --darker: #010101;
-  --lighter: #fff;
+  --darker: #111;
+  --lighter: #eee;
   --shadow: #666;
   --green: lightgreen;
   --purple: purple;
