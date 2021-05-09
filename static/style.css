@@ -135,3 +135,7 @@
     min-height: 100vh;
   }
 }
+
+.smoke {
+  color: var(--shadow);
+}
