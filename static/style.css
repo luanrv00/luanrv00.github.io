@@ -50,7 +50,7 @@
   position: relative;
   margin: var(--margin-size-major) auto;
   width: 95%;
-  max-width: 700px;
+  max-width: 666px;
   font-family: var(--font-family-primary);
   font-size: var(--font-size-base);
 }
