@@ -18,10 +18,12 @@
   --lightgreen: #a9dfbf;
   --margin-size-major: 50px;
   --margin-size-minor: 15px;
+  --margin-size-minimum: 5px;
   --font-size-major: 38px;
   --font-size-medium: 24px;
   --font-size-base: 22px;
   --font-size-minor: 16px;
+  --font-size-minimum: 14px;
 }
 
 *,
@@ -96,6 +98,7 @@
 }
 
 .social-networks > .link {
+  font-size: var(--font-size-minimum);
   text-decoration: none;
   color: var(--green);
 }
@@ -135,5 +138,6 @@
 }
 
 .smoke {
+  margin-left: var(--margin-size-minimum);
   color: var(--shadow);
 }
